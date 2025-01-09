@@ -4,13 +4,9 @@
 
 The Movie Recommendation System is a content-based recommendation engine designed to suggest movies based on various features like genres, keywords, cast, and crew. The system leverages data preprocessing, feature extraction, and similarity calculations to provide personalized movie recommendations.
 
----
-
 ## Data Sources
 - **TMDB 5000 Movies Dataset**: Contains movie metadata such as title, genres, and overview.
 - **TMDB 5000 Credits Dataset**: Includes cast and crew information for movies.
-
----
 
 ## Implementation Details
 
@@ -33,8 +29,6 @@ The Movie Recommendation System is a content-based recommendation engine designe
 
 ### **4. Model Saving**
 - Serializes the recommendation model using the `pickle` library for future use.
-
----
 
 ## Project Setup
 
